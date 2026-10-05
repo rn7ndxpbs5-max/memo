@@ -1,0 +1,6 @@
+{
+  "name": "ميمو القمر (Memo Al-Qamar - Pink Ultra Engine v8.0)",
+  "description": "صديقتك ومرشدتك الذكية الأولى لاختبارات الـ EST I & EST II في الرياضيات والأحياء والفضفضة وتنظيم الوقت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

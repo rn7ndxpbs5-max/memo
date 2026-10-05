@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --bg-white: #FFFFFF;
+  --bg-soft-pink: #FFF5F7;
+  --card-pink: #FEE6ED;
+  --border-pink: #FAC6D5;
+  --primary-rose: #E91E63;
+  --dark-rose: #C2185B;
+  --text-dark: #4A2E35;
+}
+
+body {
+  background-color: var(--bg-soft-pink);
+  color: var(--text-dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Cairo', sans-serif;
+}
+
+.white-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-pink);
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.05);
+}
+
+.pink-card {
+  background-color: var(--card-pink);
+  border: 1px solid var(--border-pink);
+}
+
+.btn-pink-primary {
+  background-color: var(--primary-rose);
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.btn-pink-primary:hover {
+  background-color: var(--dark-rose);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.25);
+}
+
+.btn-pink-secondary {
+  background-color: #FFFFFF;
+  color: var(--primary-rose);
+  border: 1px solid var(--border-pink);
+  transition: all 0.2s ease;
+}
+
+.btn-pink-secondary:hover {
+  background-color: var(--card-pink);
+}
+
+.chat-bubble-memo {
+  background-color: #FFFFFF;
+  border: 1.5px solid var(--border-pink);
+  color: var(--text-dark);
+  border-radius: 18px 18px 2px 18px;
+}
+
+.chat-bubble-menna {
+  background-color: var(--primary-rose);
+  color: #FFFFFF;
+  border-radius: 18px 18px 18px 2px;
+}
+
+/* Pink scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-soft-pink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-pink);
+  border-radius: 10px;
+}
